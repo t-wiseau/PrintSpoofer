@@ -1,0 +1,8 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+build:
+  project: PrintSpoofer.sln
+  parallel: true
+  verbosity: minimal
+artifacts:
+- path: bin\Debug\*.exe
