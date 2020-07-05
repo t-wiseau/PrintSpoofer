@@ -5,4 +5,4 @@ build:
   parallel: true
   verbosity: minimal
 artifacts:
-- path: bin\Debug\*.exe
+- path: x64\Debug\*.exe
